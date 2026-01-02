@@ -40,8 +40,8 @@ This is composed by an elegoo beginner kit clone and a 37-sensor kit such as des
 
 |Type | Name |Input | Max frequency/Precision | response time(ms) |Cost(€) | Comments|Datasheet_file|
 | ------------- | ------------- |------------- |------------- |------------- |------------- |------------- |------------- |
-|active buzzer | TMB12A05       | Digital     |                  |                 |              |            |Contains an integrated oscillator contrary to passive buzzers|TMB12A05.pdf|
-|passive buzzer |HC12085 | Analog  |||0.20  |   | Uncertain reference name|p.19 buzzer-datasheet.pdf |
+|active buzzer | TMB12A05       | Digital     |                  |                 |              |Contains an integrated oscillator contrary to passive buzzers|TMB12A05.pdf|
+|passive buzzer |HC12085 | Analog  |||0.20  |Uncertain reference name|p.19 buzzer-datasheet.pdf |
 |7 segment digit display |        | Analog              |             |            | NA      |            | | |
 |4-digits 7-segment digit display | | Analog  |||  |   | ||
 
