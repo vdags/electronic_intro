@@ -1,0 +1,3 @@
+https://docs.arduino.cc/learn/electronics/servo-motors/
+
+see knob circuit

@@ -1,0 +1,42 @@
+NOTE: final positions aren't very stable.
+
+Supplies
+
+Arduino Uno or similar
+
+breadboard & selection of jumper wires (male to male, male to female)
+
+5V power supply
+
+Analogue joystick module (ideally with a momentary push button feature, this makes for easier resting of the "home" position
+
+28BYJ-48 stepper motor and ULN2003 stepper driver
+
+Pen, paper and blu-tac (or any other pointer device to attach to the motor!)
+Step 1: Step 1: Setting Up
+
+Connect the stepper motor to the stepper driver, and connect the pins as follows:
+
+IN1 - Arduino pin 8
+
+IN2 - Arduino pin 9
+
+IN3 - Arduino pin 10
+
+IN4 - Arduino pin 11
+
+Connect your 5v power supply to the supply rails on your breadboard, and connect the ULN2003 5v inputs to the supply rails. connect the ground rail to the ground on your Arduino.
+
+for the joystick, connect as follows:
+
+Switch pin - Arduino pin 2
+
+X axis - Arduino A0 (Analogue in 0)
+
+Y axis - Arduino A1
+
++5V - Arduino 5V output
+
+GND - Arduino GND
+
+Finally connect the ground of your breadboard to the other Arduino GND pin

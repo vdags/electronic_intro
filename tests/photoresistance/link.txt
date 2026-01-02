@@ -1,0 +1,4 @@
+https://projecthub.arduino.cc/tropicalbean/how-to-use-a-photoresistor-1143fd
+
+other:
+https://passionelectronique.fr/photoresistance/
