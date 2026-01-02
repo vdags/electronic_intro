@@ -28,8 +28,13 @@ All of that cost me around 30€ (Arduino excluded) on some Chinese sellers, for
 
 | Name| Measure |Output type| Precision | response time(ms) |Cost(€) |Complete Name | Comments|
 | ------------- | ------------- |------------- |------------- |------------- |------------- |------------- |------------- |
-| DHT11| Temperature + Hygrometry  |Digital|+/- 1°C / +/- 15%||~3|Content Cell  |hygrometry value often 10-15% lower than real value|
+| DHT11| Temperature + Hygrometry  |Digital|+/- 1°C / +/- 15%||~3|DHT11  |hygrometry value often 10-15% lower than real value|
 |Photoresistance| Ligth |Analog  |NA|30|0.10  | GL5528  |  |
 
 ### Displays
 
+|Type | Name |Input | Max frequency/Precision | response time(ms) |Cost(€) | Comments|Datasheet_file|
+| ------------- | ------------- |------------- |------------- |------------- |------------- |------------- |------------- |
+|active buzzer | TMB12A05       | Digital     |                  |                 |              |            |Contains an integrated oscillator contrary to passive buzzers|TMB12A05.pdf|
+|passive buzzer |HC12085 | Analog  |||0.20  |   | Uncertain reference name|p.19 buzzer-datasheet.pdf |
+|joystick | HW-504       | Analog              |             |            | NA      |            |Contains an integrated oscillator contrary to passive buzzers|HW504.pdf|
