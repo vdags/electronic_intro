@@ -26,15 +26,15 @@ This is composed by an elegoo beginner kit clone and a 37-sensor kit such as des
 
 ### Sensors
 
-| Name| Measure |Output type| Precision | response time(ms) |Cost(€) |Complete Name | Comments| Datasheet_file |
+| Type | Name |Output type|Range | Precision | response time(ms) |Cost(€) | Comments| Datasheet_file |
 | ------------- | ------------- |------------- |------------- |------------- |------------- |------------- |------------- | ------------- |
-| DHT11| Temperature + Hygrometry  |Digital|+/- 1°C / +/- 15%||~3|DHT11  |hygrometry value often 10-15% lower than real value| GL55.pdf |
-|Photoresistance| Brightnes |Analog  |NA|30|0.10  | GL5528  |  | |
-|Rotary encoder| Angular position | Digital  |360/22°||~3  | KY-040  |  |KY-040-Joy-IT.pdf |
-|Thermoresistor| Temperature  | Analog  |+/- 0.5°C|NA|0.05  | KY-013 (based on NTC-MF52 3950K) |  |KY-013-Joy-IT.pdf (MF52.pdf) |
-|Thermoresistor module| Temperature  | Digital  |+/- 0.5°C|NA| ~5  | KY-028 (based on NTC-MF52 3950K) | NTC-MF52 3950K with digital converter |KY-028.pdf (MF52.pdf) |
-|joystick | Angular position       | Analog              |             |     NA       |       | HW-504  | |HW504.pdf|
-
+| Temperature + Hygrometry  |DHT11  |Digital||+/- 1°C / +/- 15%||~3|hygrometry value often 10-15% lower than real value| DHT11.pdf |
+| Temperature       | DS18B20  |Digital             |  -55°C/+125°C |±0.5°C(-10°C to +85°C)|            |       |  |ds18b20.pdf|
+|Rotary encoder | KY-040  | Digital  ||360/22°||~3  |   |KY-040-Joy-IT.pdf |
+| Temperature  | KY-013| Analog  ||+/- 0.5°C|NA|0.05  |   |based on thermoresistor NTC-MF52 3950K  |KY-013-Joy-IT.pdf (MF52.pdf) |
+| Temperature  | KY-028|Digital  ||+/- 0.5°C|NA| ~5  |   | NTC-MF52 3950K with digital converter |KY-028.pdf (MF52.pdf) |
+| Brightness |GL5528  |Analog  ||NA|30|0.10  | Photoresistance  |GL55.pdf |
+|joystick       |HW-504  | Analog              ||             |     NA       |       |  |HW504.pdf|
 
 ### Outputs
 
