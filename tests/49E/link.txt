@@ -1,0 +1,4 @@
+https://docs.sunfounder.com/projects/umsk/fr/latest/02_arduino/uno_lesson06_hall_sensor.html
+
+other:
+https://electronoobs.com/eng_arduino_tut82.php

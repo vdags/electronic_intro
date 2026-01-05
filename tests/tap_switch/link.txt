@@ -1,0 +1,5 @@
+https://arduinomodules.info/ky-031-knock-sensor-module/
+https://www.circuitmagic.com/arduino/tap-sensor-module-with-arduino-step-by-step-guide/
+
+other:
+https://meganano.uno/tap-sensor-module/
