@@ -40,6 +40,7 @@ This is composed by an elegoo beginner kit clone and a 37-sensor kit such as des
 |Hall sensor - analog        |49E503  | Analog              |1.9mV/GS|             |            |       |North/South sensitive: returns positive/negative values.|49E.PDF|
 |Reed switch        |KY-021| Digital(Switch)  ||ON:10-40 AT/ OFF:6-25 AT |500Hz     |       |Not concerned by North/South magnetic poles.Probably based on an RM-1318, I am unable to test magnetic field values.For AT unit, see p.6[here](https://www.relay.com.tw/fr/faq/bright_toward_faq-15.html).|RRE_Reed_Switch_Catalog.pdf|
 |Reed switch - converted  |KY-025| Digital  ||NA             | 500Hz     |       |Potentiometer modulate sensitivity, no build-in threshold value|KY-025-Joy-IT.pdf|
+|Tap switch  |KY-031| Digital (Switch)  ||NA             |      |       |Detection values are unprecise and unreproduceable|tap-sensore-module.pdf|
 
 Most of modules tested above are KY modules. For a good understanding of thoses sensors, I prefer to give key component characteristics and datasheet, especially for modules only adding a couple of resitors.
 
