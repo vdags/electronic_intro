@@ -60,6 +60,7 @@ Most of modules tested above are KY modules. For a good understanding of thoses 
 |passive buzzer |HC12085 | Analog  |||0.20  |Uncertain reference name|p.19 buzzer-datasheet.pdf |
 |7 segment digit display |        | Analog              |             |            | NA      |            | | |
 |4-digits 7-segment digit display | | Analog  |||  |   | ||
+|LCD 16x2 display |HD44780 clone | Digital  |||1  |Datasheet of reference module|HD44780U.PDF |
 
 ### Controllers
 
