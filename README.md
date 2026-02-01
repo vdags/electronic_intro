@@ -1,4 +1,4 @@
-WORK IN PROGRESS
+WORK IN PROGRESS: Cleaning repo architecture and names is to come. Futher examples will be add.
 
 # Arduino Introduction
 
