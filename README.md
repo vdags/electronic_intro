@@ -18,7 +18,7 @@ This repo aggregate many examples (code + schematics) I have found here and ther
 
 
 
-More simple examples but mixing several components are in ```/basics```.
+More simple examples but mixing several components will be add in ```/basics```.
 
 
 ## Component list
@@ -60,7 +60,7 @@ Most of modules tested above are KY modules. For a good understanding of thoses 
 | ------------- | ------------- |------------- |------------- |------------- |------------- |------------- |------------- |
 |active buzzer | TMB12A05       | Digital     |                  |                 |              |Contains an integrated oscillator contrary to passive buzzers|TMB12A05.pdf|
 |passive buzzer |HC12085 | Analog  |||0.20  |Uncertain reference name|p.19 buzzer-datasheet.pdf |
-|7 segment digit display |        | Analog              |             |            | NA      |            | | |
+|7 segment digit display |        | Analog              |             |            |      |            | | |
 |4-digits 7-segment digit display | | Analog  |||  |   | ||
 |LCD 16x2 display |HD44780 clone | Digital  |||1  |Datasheet of reference module|HD44780U.PDF |
 
@@ -68,8 +68,8 @@ Most of modules tested above are KY modules. For a good understanding of thoses 
 
 |Type | Name |Input | Max frequency/Precision | response time(ms) |Cost(€) | Comments|Datasheet_file|
 | ------------- | ------------- |------------- |------------- |------------- |------------- |------------- |------------- |
-|H Bridge |  L293D     | Binary + PWM     |                  |                 |              |            |for small (low current) motors|L293D.pdf|
-|H Bridge |   L298N      | Binary + PWM     |                  |                 |              |            |for medium motors (see [here](https://racheldebarros.com/guide-to-choosing-the-best-dc-motor-drivers-for-arduino/)) |L298.pdf|
-|LED serialiser|  MAX7219 CNG     | SPI     |                  |                 |              |            |control up to 64 LEDs, for LEDs matrices or 7segment digits diplays|MAX7219.PDF|
+|H Bridge |  L293D     | Binary + PWM     |                  |                 |                          |for small (low current) motors|L293D.pdf|
+|H Bridge |   L298N      | Binary + PWM     |                  |                 |                          |for medium motors (see [here](https://racheldebarros.com/guide-to-choosing-the-best-dc-motor-drivers-for-arduino/)) |L298.pdf|
+|LED serialiser|  MAX7219 CNG     | SPI     |                  |                 |                          |control up to 64 LEDs, for LEDs matrices or 7segment digits diplays|MAX7219.PDF|
 
 
